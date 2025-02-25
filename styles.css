@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body{
+    background: url(/images/grid.jpg);
+    overflow: hidden;
+}
+a{
+    color: #e8e8e8;
+}
+.main{
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    color: #e8e8e8;
+    margin-bottom: 12em;
+    position: relative;
+    transition: 0.3s;
+}
+.nav h1{
+    font-size: 20px;
+    margin-bottom: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.email{
+    color: #525252;
+}
+i{
+    color: #e8e8e8;
+    margin-right: 0.5em;
+}
+.nav h1:hover{
+    transform: scale(1.1) !important;
+    color: white;
+}
+.project-dropdown{
+    position: absolute;
+    top: 6em;
+    left: -0.5em;
+    width: 160px;
+    height: 0;
+    /* background-color: #131618; */
+    color: #e8e8e8;
+    transition: 0.3s;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.project-dropdown p{
+    margin-left: 1em;
+    margin-block: 1.5em;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.project-dropdown p:hover{
+    transform: scale(1.1) !important;
+    color: white;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    color: #e8e8e8;
+    margin-left: 12em;
+    height: 300px;
+    width: 500px;
+}
+.name{
+    border-bottom: 4px solid #131618;
+    margin-bottom: 0.2em;
+}
+.hero-text{
+    align-self: self-start;
+    transition: 0.3s;
+}
+.hero h1{
+    text-align: left;
+    margin-right: 10em;
+}
+.hero img{
+    width: 300px;
+    height: 300px;
+    margin-left: 2em;
+    transition: 0.3s;
+}
+.image{
+    position: absolute;
+    left: 12em;
+}
+.glow{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        800px circle at var(--mouse-x) var(--mouse-y), rgba(0,0,0,0.6),rgba(0,0,0,0.9) 35%
+    );
+}
+.space-hover{
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+}
+.space{
+    width: 400px !important;
+    transform: skewY(5deg);
+    opacity: 0;
+    transition: 0.3s;
+}
+.article{
+    width: 400px !important;
+    transform: skewY(5deg);
+    opacity: 0;
+    transition: 0.3s;
+}
+.back{
+    position: absolute;
+    color: #e8e8e8;
+    top: 5em;
+    left: 15em;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0;
+}
+.back:hover{
+    transform: scale(1.1);
+}
+.back h1{
+    font-size: 18px;
+}
