@@ -9,6 +9,9 @@ body{
     background: url(/images/grid.jpg);
     overflow: hidden;
 }
+img{
+    border-radius: 10px;
+}
 a{
     color: #e8e8e8;
 }
