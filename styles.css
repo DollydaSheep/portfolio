@@ -6,7 +6,7 @@
     font-family: 'Lato';
 }
 body{
-    background: url(/images/grid.jpg);
+    background: url(images/grid.jpg);
     overflow: hidden;
 }
 img{
@@ -51,7 +51,7 @@ i{
     top: 6em;
     left: -0.5em;
     width: 160px;
-    height: 0;
+    height: 14em;
     /* background-color: #131618; */
     color: #e8e8e8;
     transition: 0.3s;
@@ -108,7 +108,7 @@ i{
     width: 100%;
     height: 100%;
     background: radial-gradient(
-        800px circle at var(--mouse-x) var(--mouse-y), rgba(0,0,0,0.6),rgba(0,0,0,0.9) 35%
+        800px circle at var(--mouse-x) var(--mouse-y), rgba(0,0,0,0.3),rgba(0,0,0,0.9) 35%
     );
 }
 .space-hover{
@@ -117,7 +117,7 @@ i{
     height: 400px;
     position: absolute;
 }
-.space{
+.melfm{
     width: 400px !important;
     transform: skewY(5deg);
     opacity: 0;
@@ -143,4 +143,8 @@ i{
 }
 .back h1{
     font-size: 18px;
+}
+
+.details svg{
+    align-self: center;
 }
