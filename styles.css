@@ -142,6 +142,12 @@ i{
     opacity: 0;
     transition: 0.3s;
 }
+.spotify{
+    width: 400px !important;
+    transform: skewY(5deg);
+    opacity: 0;
+    transition: 0.3s;
+}
 
 .back{
     position: absolute;
