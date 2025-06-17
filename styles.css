@@ -36,7 +36,7 @@ a{
     transition: 0.3s;
 }
 .email{
-    color: #525252;
+    color: #e8e8e8;
 }
 i{
     color: #e8e8e8;
@@ -51,7 +51,7 @@ i{
     top: 6em;
     left: -0.5em;
     width: 160px;
-    height: 14em;
+    height: 0;
     /* background-color: #131618; */
     color: #e8e8e8;
     transition: 0.3s;
@@ -79,7 +79,8 @@ i{
     width: 500px;
 }
 .name{
-    border-bottom: 4px solid #131618;
+    width: 8.5em;
+    border-bottom: 4px solid #e8e8e8;
     margin-bottom: 0.2em;
 }
 .hero-text{
@@ -129,6 +130,19 @@ i{
     opacity: 0;
     transition: 0.3s;
 }
+.wallpeeps{
+    width: 400px !important;
+    transform: skewY(5deg);
+    opacity: 0;
+    transition: 0.3s;
+}
+.ctumap{
+    width: 400px !important;
+    transform: skewY(5deg);
+    opacity: 0;
+    transition: 0.3s;
+}
+
 .back{
     position: absolute;
     color: #e8e8e8;
@@ -147,4 +161,12 @@ i{
 
 .details svg{
     align-self: center;
+}
+.about-text{
+    opacity: 0;
+    
+    position: absolute;
+    left: 16em;
+    width: 400px;
+    transition: 0.3s;
 }
